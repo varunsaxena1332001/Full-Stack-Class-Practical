@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMLive</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+
+        }
+        .template{
+            display: flex;
+            flex-direction:row;
+        }
+        .template .sidebar{
+            width:6%;
+            display:block;
+            background-color:black;
+            
+            margin: 0;
+            height: 755px;
+        }
+        .sidebar-menu i{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 25px;
+        }
+        .template-body{
+            width:94%;
+            
+        }
+        .show{
+            top: 200px;
+            position:absolute;
+            top: 200px;
+            left: 100px;
+        }
+        .show .signup li{
+            text-decoration: none;
+            background-color:yellow;
+            color:black;
+            width:150px;
+            font-size:30px;
+            padding: 10px;
+        }
+        .show .signup li a{
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="template">
+        <div class="sidebar">
+            <div class="sidebar-menu">
+                <i class="fa fa-bars"></i>
+                <i class="fa fa-search"></i>
+            </div>
+            <div class="footer">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+        
+        <div class="template-body">
+            
+            <div class="header-img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW56oFixV5n1-1_74G6UJfsgfkJT8QrvuzTw&usqp=CAU" alt="">
+                
+            </div>
+            <div class="header2" id="myP">
+                
+                    <h1>IMLive</h1>
+                    <ul class="menu">
+
+                        <li><a href="#">HOME</a></li>
+                        
+                        <li><a href="#">ABOUT </a></li>
+
+                        <li><a href="#">RECIPT</a></li>
+                        
+                    </ul>
+                
+                    
+
+                    <ul class="signup">
+                        <li>
+                            <a href="#">SIGN UP</a>
+                        </li>
+                    </ul>
+            </div>
+            
+            <div class="show" style="z-index: 21; font-size:60px;">
+                <pre>
+        Food <span style="color: yellow;">doesn't have</span>  
+    <span style="color: yellow;">religion</span> . Food is a religion.
+                </pre>
+                
+                <ul class="signup">
+                    <li>
+                        <a href="#">EXPLORE</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>
